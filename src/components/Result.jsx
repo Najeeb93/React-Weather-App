@@ -1,5 +1,7 @@
 function Result({ weatherData }) {
   return (
+    <div>
+    
     <div className="shadow-xl mt-5 p-2">
       {weatherData !== undefined ? (
         <>
@@ -30,6 +32,7 @@ function Result({ weatherData }) {
           <h3 className="text-2xl">Please enter the city name</h3>
         </>
       )}
+    </div>
     </div>
   );
 }

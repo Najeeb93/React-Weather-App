@@ -3,6 +3,8 @@ import { useRef } from "react";
 function Search(props) {
   const searchInput = useRef();
   return (
+    <div>
+      <div className="w-full  mb-9 text-1xl shadow-md shadow-slate-500"><h1>Weather App</h1></div>
     <div className="flex shadow-xl">
       <input
         type="search"
@@ -17,6 +19,7 @@ function Search(props) {
       >
         Search
       </button>
+    </div>
     </div>
   );
 }
